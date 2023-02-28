@@ -20,7 +20,6 @@ public class Bot extends TelegramLongPollingBot {
     final private String BOT_NAME = "MagaTestBot";
     Storage storage;
 
-    //constructors
     Bot() throws IOException {
         storage = new Storage();
     }
